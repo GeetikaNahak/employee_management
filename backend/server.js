@@ -19,7 +19,7 @@ connectDB();
 const corsOptions = {
   origin: [
     'http://localhost:5173',
-    'https://your-frontend-domain.vercel.app'
+    'https://employee-management-eight-nu.vercel.app/'
   ],
   credentials: true
 };
