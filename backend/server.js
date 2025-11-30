@@ -16,9 +16,16 @@ const PORT=process.env.PORT || 5000;
 
 connectDB();
 
+const corsOptions = {
+  origin: [
+    'http://localhost:5173',
+    'https://your-frontend-domain.vercel.app'
+  ],
+  credentials: true
+};
 
+app.use(cors(corsOptions));
 
-app.use(cors());
 app.use(morgan('dev'))
 app.use(express.json());
 
