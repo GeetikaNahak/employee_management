@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+.input {
+  @apply w-full border p-2 rounded;
+}
+
+.btn {
+  @apply px-4 py-2 rounded;
+}
