@@ -102,37 +102,6 @@ cd backend
 npm start
 ```
 
-## 📁 Project Structure
-
-```
-CloudQA/
-├── backend/
-│   ├── src/
-│   │   ├── config/
-│   │   │   └── db.js          # Database configuration
-│   │   ├── controllers/
-│   │   │   ├── authController.js
-│   │   │   └── attendanceController.js
-│   │   ├── middleware/
-│   │   │   └── authMiddleware.js
-│   │   ├── models/
-│   │   │   ├── User.js
-│   │   │   └── Attendance.js
-│   │   └── routes/
-│   │       ├── auth.js
-│   │       ├── attendance.js
-│   │       └── dashboard.js
-│   ├── package.json
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── main.jsx
-│   ├── package.json
-│   └── vite.config.js
-└── README.md
-```
 
 ## 🔧 Environment Variables Reference
 
@@ -141,7 +110,7 @@ CloudQA/
 | `PORT` | Backend server port | `5000` |
 | `MONGO_URI` | MongoDB connection string | `mongodb://localhost:27017/employee_management` |
 | `JWT_SECRET` | Secret key for JWT token generation | Required (no default) |
-| `LATE_THRESHOLD` | Time threshold for marking late arrival | `09:15` |
+
 
 ## 📚 API Endpoints
 
